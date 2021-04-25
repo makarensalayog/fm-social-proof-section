@@ -1,0 +1,205 @@
+/* For IPAD and Desktop Responsive  */
+body {
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top, right bottom;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: rgba(17, 23, 29, .6);
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 10%;
+  width: 90%;
+}
+
+.container {
+  background-color: #F7F3F7;
+  margin: 5% 0 5% 0;
+  padding: 3% 0 3% 3%;
+  border-radius: 10px;
+  width: 80%;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Spartan-Bold', sans-serif;
+  font-size: 3.5rem;
+  color: #542153;
+  font-weight: 700;
+  width: 90%;
+}
+
+.heading-paragraph {
+  width: 90%;
+}
+
+/* Rate Section */
+.rated-text {
+  font-size: 1rem;
+  color: #542153;
+  font-weight: 700;
+  line-height: 1.5;
+  display: inline-block;
+  width: 70%;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.rate1 {
+  position: relative;
+  top: 2%;
+}
+
+.rate2 {
+  position: relative;
+  left: 10%;
+}
+
+.rate3 {
+  position: relative;
+  left: 20%;
+}
+
+/* Testimonials Section */
+.testimonial-box {
+  background-color: #542153;
+  color: #fff;
+  border-radius: 5%;
+  padding: 15% 10% 5%;
+  margin-top: 5%;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 120%;
+}
+
+.testimonial-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.testimonial-name-center {
+  margin: auto;
+}
+
+.testimonial-role {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ee68a4;
+}
+
+.testimonial-paragraph {
+  padding-top: 5%;
+  font-size: 14px;
+}
+
+.testimonial-box1 {
+  position: relative;
+}
+
+.testimonial-box2 {
+  position: relative;
+  top: 10%;
+}
+
+.testimonial-box3 {
+  position: relative;
+  top: 15%
+}
+
+/* For Smooth Transition Responsive */
+@media (max-width:1024px) {
+
+  /* Containers */
+  .container-fluid {
+    padding: 15% 10%;
+    width: 90%;
+  }
+
+  /* Testimonials Section */
+  .testimonial-box2 {
+    position: relative;
+    top: 0%;
+  }
+
+  .testimonial-box3 {
+    position: relative;
+    top: 0%
+  }
+
+  .testimonial-box {
+    padding: 8% 10% 5%;
+  }
+
+}
+
+  /* For Mobile Responsive */
+  @media (max-width:767px) {
+    body {
+      background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: left top, right bottom;
+    }
+
+    .title-center {
+      text-align: center;
+    }
+
+    /* Containers */
+    .container-fluid {
+      padding: 20% 10% 10%;
+      width: 90%;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    /* Headings */
+    .big-heading {
+      width: 100%;
+    }
+
+    .heading-paragraph {
+      padding-top: 5%;
+      width: 100%;
+    }
+
+
+    /* Rate Section */
+    .rated-text {
+      display: block;
+    }
+
+    .rate2 {
+      left: 0;
+    }
+
+    .rate3 {
+      left: 0;
+    }
+
+    /* Testimonials Section */
+    .testimonial-image {
+      border-radius: 50%;
+      width: 120%;
+    }
+
+    .testimonial-box {
+      padding: 10% 10% 5%;
+      height: auto;
+    }
+
+    .testimonial-box2 {
+      top: 0;
+    }
+
+    .testimonial-box3 {
+      top: 0%
+    }
+  }
