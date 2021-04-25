@@ -27,7 +27,7 @@ a:hover {
 
 /* Containers */
 .container-fluid {
-  padding: 5% 10%;
+  padding: 10%;
   width: 90%;
 }
 
@@ -42,10 +42,10 @@ a:hover {
 /* Headings */
 .big-heading {
   font-family: 'Spartan-Bold', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #542153;
   font-weight: 700;
-  width: 90%;
+  width: 80%;
 }
 
 .heading-paragraph {
@@ -84,7 +84,7 @@ a:hover {
   background-color: #542153;
   color: #fff;
   border-radius: 5%;
-  padding: 15% 10% 5%;
+  padding: 10% 10% 5%;
   margin-top: 5%;
 }
 
@@ -132,7 +132,7 @@ a:hover {
 
   /* Containers */
   .container-fluid {
-    padding: 15% 10%;
+    padding: 20% 10%;
     width: 90%;
   }
 
