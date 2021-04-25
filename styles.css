@@ -53,13 +53,17 @@ a:hover {
 }
 
 /* Rate Section */
+
+.container img {
+  padding:0 5px;
+}
 .rated-text {
   font-size: .8rem;
   color: #542153;
   font-weight: 700;
   line-height: 1.5;
   display: inline-block;
-  width: 70%;
+  width: 50%;
   margin: auto;
   padding-left: 10px;
 }
@@ -107,7 +111,6 @@ a:hover {
 
 .testimonial-role {
   font-size: 15px;
-  font-weight: bold;
   color: #cf558b;
 }
 
