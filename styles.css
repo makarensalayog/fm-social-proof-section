@@ -34,7 +34,7 @@ a:hover {
 .container {
   background-color: #F7F3F7;
   margin: 5% 0 5% 0;
-  padding: 3% 0 3% 3%;
+  padding: 2% 0 2% 3%;
   border-radius: 10px;
   width: 80%;
 }
@@ -45,7 +45,7 @@ a:hover {
   font-size: 3rem;
   color: #542153;
   font-weight: 700;
-  width: 80%;
+  width: 95%;
 }
 
 .heading-paragraph {
@@ -54,7 +54,7 @@ a:hover {
 
 /* Rate Section */
 .rated-text {
-  font-size: 1rem;
+  font-size: .8rem;
   color: #542153;
   font-weight: 700;
   line-height: 1.5;
@@ -66,17 +66,19 @@ a:hover {
 
 .rate1 {
   position: relative;
-  top: 2%;
 }
 
 .rate2 {
   position: relative;
   left: 10%;
+
 }
 
 .rate3 {
   position: relative;
   left: 20%;
+
+
 }
 
 /* Testimonials Section */
@@ -106,7 +108,7 @@ a:hover {
 .testimonial-role {
   font-size: 15px;
   font-weight: bold;
-  color: hsl(333, 80%, 67%);
+  color: #cf558b;
 }
 
 .testimonial-paragraph {
@@ -120,12 +122,12 @@ a:hover {
 
 .testimonial-box2 {
   position: relative;
-  top: 10%;
+  top: 15%;
 }
 
 .testimonial-box3 {
   position: relative;
-  top: 15%
+  top: 25%
 }
 
 /* For Smooth Transition Responsive */
