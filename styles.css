@@ -9,6 +9,22 @@ body {
   color: rgba(17, 23, 29, .6);
 }
 
+a:link {
+  color: #542153;;
+}
+
+/* visited link */
+a:visited {
+  color: #ee68a4;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
 /* Containers */
 .container-fluid {
   padding: 5% 10%;
