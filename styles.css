@@ -86,6 +86,7 @@ a:hover {
   border-radius: 5%;
   padding: 10% 10% 5%;
   margin-top: 5%;
+
 }
 
 .testimonial-image {
@@ -105,7 +106,7 @@ a:hover {
 .testimonial-role {
   font-size: 15px;
   font-weight: bold;
-  color: #ee68a4;
+  color: hsl(333, 80%, 67%);
 }
 
 .testimonial-paragraph {
